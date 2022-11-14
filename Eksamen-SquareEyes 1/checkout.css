@@ -1,0 +1,252 @@
+h1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #D1E8E2;
+  padding: 20px;
+}
+
+.text {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 1;
+  justify-content: center;
+}
+
+.checkout-box {
+  grid-column: 1/4;
+  grid-row: 2;
+  border: 2px solid #FFCB9A;
+  border-radius: 13px;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.movieimg {
+  max-width: 140px;
+  max-height: 200px;
+  border: 2px solid #D1E8E2;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.movie-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  letter-spacing: 1px;
+}
+
+.movie-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+.contact-information {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3;
+  justify-content: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.cii {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 4;
+  justify-content: center;
+}
+
+.contact-information2 {
+  padding: 4px;
+}
+
+.ci {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #D1E8E2;
+  color: #2F303A;
+  text-indent: 6px;
+  letter-spacing: 1px;
+}
+
+.card-information {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 6;
+  padding: 10px;
+  border: 2px solid #FFCB9A;
+  border-radius: 13px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.card-information2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+.card-i {
+  width: 240px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #D1E8E2;
+  color: #2F303A;
+  text-indent: 6px;
+  letter-spacing: 1px;
+}
+
+.card-ii {
+  width: 240px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #D1E8E2;
+  color: #2F303A;
+  text-indent: 6px;
+  letter-spacing: 1px;
+}
+
+.pay-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pay-button-style {
+  background-color: #FFCB9A;
+  color: #2F303A;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 2px solid #1D1D1F;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.pay-buttond {
+  display: none;
+}
+
+@media (min-width:1024px) {
+  h1 {
+    padding-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .checkout-box {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 4/6;
+  }
+
+  .contact-information {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 4;
+    padding: 0;
+    justify-content: left;
+    margin-left: 50px;
+  }
+
+
+  .cii {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 4;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 700px;
+  }
+
+  .ci {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+  }
+
+  .card-information {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 620px;
+  }
+
+  .card-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+  }
+
+  .card-ii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+
+  .pay-button {
+    display: none;
+  }
+
+.pay-buttond {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 6;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+  .pay-buttond-style {
+    background-color: #FFCB9A;
+    color: #2F303A;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid #1D1D1F;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    justify-content: center;
+    letter-spacing: 1px;
+  }
+
+}
+
